@@ -7,6 +7,11 @@ files:
     ├── Intermediate
     └── output
 
+Abstract:
+    * このスクリプトでやってること
+        * Task1 -> ローカルの`intermediate/task1.txt`に現在時刻出力
+        * Task2 -> ローカルの`intermediate/task1.txt`が存在すれば，その内容を`output/task2.txt`に追記
+
 Memo:
     task_namespace
     self.input() -> self.input().open("r")で開ける．
